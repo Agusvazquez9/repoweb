@@ -1,0 +1,606 @@
+/* principal */
+
+* {
+  margin: 0;
+  padding: 0.1px;
+
+  text-decoration: none;
+}
+
+.header1 {
+  width: 100%;
+  height: 120px;
+
+  position: fixed;
+
+  margin-top: 0;
+  margin-right: 0;
+  z-index: 100;
+  background-color: rgb(29, 165, 165);
+}
+
+.contenedorheader {
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0px 10px;
+}
+
+.header1 .logopr {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logopr img {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.contenedornav {
+  position: relative;
+  height: 100%;
+}
+
+nav {
+  height: 100%;
+}
+
+nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0px 20px;
+
+  list-style: none;
+}
+
+nav ul li a :hover {
+  color: white;
+  font-size: 20px;
+}
+
+.select {
+  background: rgba(47, 47, 143, 0.747);
+  padding: 10px 30px;
+  color: white;
+  border-radius: 20px;
+}
+
+nav .fas {
+  width: 50px;
+  height: 50px;
+
+  margin-left: 1400px;
+
+  margin-top: -100px;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background 300ms;
+}
+
+nav .fas:hover {
+  background: chartreuse;
+}
+
+@media screen and (max-width: 760px) {
+  nav .fas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* MAIN */
+
+.todo {
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.contenedortodo {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 500px;
+  margin-top: 200px;
+}
+
+/* subtitulos principales */
+
+h2 {
+  color: rgb(52, 77, 146);
+}
+
+/* tabla para beneficios */
+
+.colores {
+  color: rgb(34, 74, 207);
+
+  background-color: rgb(149, 188, 233);
+}
+
+#centrar {
+  margin-left: 100px;
+
+  background-color: rgb(146, 206, 206);
+}
+/* Para los boton de sacar turno  */
+
+.b2 {
+  background-color: rgb(135, 184, 63);
+}
+
+/* Formulario*/
+
+.fondo {
+  background-color: rgb(196, 208, 223);
+
+  display: block;
+
+  text-align: left;
+
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Parrafos*/
+
+p {
+  color: brown;
+}
+
+.listas li {
+  color: rgb(10, 10, 10);
+
+  text-align: center;
+
+  font-family: "Quicksand", sans-serif;
+
+  font-size: 20px;
+}
+
+/* Titulos Principales*/
+
+h1 {
+  font-family: "Roboto", sans-serif;
+
+  text-align: center;
+}
+
+/* Esta parte es para los botones de las redes sociales*/
+
+.rojo {
+  margin-left: 40px;
+}
+
+/* Subtitulos con letra*/
+
+h2 {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  color: black;
+}
+/* texto formulario*/
+
+.letra {
+  font-family: "Quicksand", sans-serif;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+
+  color: black;
+}
+
+.prin {
+  font-family: "Lato", serif;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+}
+
+/* ubicacion de las etiquetas */
+
+#ubi {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: auto;
+}
+
+.ubi3 {
+  margin-left: 870px;
+  margin-right: 1px;
+  margin-top: -480px;
+  margin-bottom: 500px;
+}
+
+.ubi4 {
+  margin-left: 870px;
+  margin-right: 1px;
+  margin-top: -450px;
+  margin-bottom: 500px;
+}
+
+.ubi5 {
+  text-align: right;
+
+  margin-top: -200px;
+
+  margin-right: 40px;
+}
+
+.ubi6 {
+  font-size: 20px;
+  font-family: "Encode Sans SC", sans-serif;
+}
+
+/*.ubi7 {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}*/
+
+.ubi8 {
+  margin-left: 600px;
+  margin-right: 400px;
+  margin-top: -370px;
+}
+
+/* Menu */
+
+.marderecho {
+  text-align: right;
+}
+
+#movimiento {
+  position: relative;
+}
+
+/* Descripcion de contacto */
+
+.desc {
+  color: rgb(28, 28, 146);
+
+  font-size: 20px;
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+/* Footer */
+
+.footer1 {
+  width: 100%;
+
+  padding: 50px 0px;
+
+  background-color: rgb(30, 83, 133);
+
+  background-size: auto;
+}
+
+.contenido {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+
+  max-width: 1200px;
+
+  margin: auto;
+
+  margin-top: 50px;
+}
+
+.caja1 {
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 10px;
+}
+
+.caja1 .logo img {
+  width: 180px;
+}
+
+.caja1 .terminos {
+  max-width: 350px;
+  margin-top: 30px;
+  font-weight: 500;
+
+  font-size: 18px;
+}
+
+.caja1 h2 {
+  margin-bottom: 50px;
+  color: rgb(2, 34, 92);
+  font-weight: 700;
+}
+
+.caja1 a {
+  margin-top: 20px;
+
+  color: white;
+  font-weight: 600;
+}
+
+.caja1 a:hover {
+  opacity: 0.4;
+}
+
+.caja1 a .fab {
+  font-size: 20px;
+}
+
+.caja1 a .far {
+  font-size: 20px;
+}
+
+.caja1 a .fas {
+  font-size: 20px;
+}
+
+.derechos {
+  max-width: 1200px;
+  margin: auto;
+  text-align: auto;
+  padding: 0px 40px;
+}
+
+.derechos p {
+  margin-top: 20px;
+  color: rgb(247, 242, 240);
+  margin-left: 350px;
+}
+
+.derechos hr {
+  border: none;
+  height: 5px;
+  background-color: rgb(0, 45, 128);
+}
+
+.terminos p {
+  color: white;
+}
+
+/* Fondos del color del menu */
+
+.colorfondo {
+  display: block;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background-image: url("https://www.crushpixel.com/big-static16/preview4/blue-paint-wall-background-texture-2511688.jpg");
+
+  color: white;
+}
+
+.colorfondo2 {
+  display: block;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background-image: url("https://www.crushpixel.com/big-static16/preview4/blue-paint-wall-background-texture-2511688.jpg");
+
+  color: white;
+}
+
+.colorfondo4 {
+  display: block;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background-image: url("https://www.crushpixel.com/big-static16/preview4/blue-paint-wall-background-texture-2511688.jpg");
+
+  color: white;
+}
+
+.colorfondo5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+
+  color: white;
+}
+
+/* Informacion */
+
+.foto {
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+
+  filter: grayscale(1);
+}
+
+.foto:hover {
+  filter: none;
+  transform: scale(1-1);
+}
+
+/* BLOG */
+
+.blog1 {
+  margin-left: 130px;
+  margin-top: 100px;
+}
+
+.blog3 {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.blog2 {
+  margin-top: -550px;
+  margin-left: 930px;
+  margin-right: 100px;
+}
+
+.blog4 {
+  margin-left: 930px;
+  margin-top: -710px;
+}
+
+/* Boton Volver */
+
+.Boton {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+/* color fondo pag */
+
+body {
+  background-color: rgba(70, 86, 114, 0.158);
+}
+
+.me {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: black;
+
+  margin-left: 90%;
+}
+
+/* Preguntas Frecuentes  agregando Flexbox*/
+
+.preg1 {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+
+.preg2 {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+
+.preg3 {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+
+/* Utilizo el grid debajo de la tabla de beneficios en modo demostrativo
+ donde van a ir todas las especialidades con su respectiva informacion */
+
+.grid {
+  margin-top: 50px;
+
+  margin-left: 350px;
+
+  display: grid;
+
+  align-items: center;
+
+  text-align: center;
+
+  height: 400px;
+
+  width: 200px;
+
+  grid-template-areas: none;
+}
+.a {
+  grid-area: auto;
+  background: rgb(60, 80, 192);
+  color: white;
+}
+.b {
+  grid-area: auto;
+  background: red;
+  color: white;
+}
+.c {
+  grid-area: auto;
+  background: green;
+  color: white;
+}
+.d {
+  grid-area: auto;
+  background: rgb(111, 46, 216);
+  color: white;
+}
+.e {
+  grid-area: auto;
+  background-color: teal;
+  color: white;
+}
+
+/* Boton turnos Whatsapp */
+
+.what {
+  position: fixed;
+
+  justify-content: space-evenly;
+
+  text-align: right;
+
+  margin-top: 150px;
+
+  margin-left: 20px;
+}
